@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="ij.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="jars/javacpp.jar"/>
+	<classpathentry kind="lib" path="jars/javacv.jar"/>
+	<classpathentry kind="lib" path="jars/opencv-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="jars/opencv.jar"/>
+	<classpathentry kind="lib" path="jars/IJ-OpenCV-1.0.jar"/>
+	<classpathentry kind="lib" path="jars/scijava-common-2.61.0.jar"/>
+	<classpathentry kind="output" path="plugins"/>
+</classpath>
