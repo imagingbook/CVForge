@@ -60,6 +60,8 @@ public class CVInstaller {
     		pluginDir = new File("/usr/share/OpenCV/java/");
     	}
     	
+    	System.out.println("CVInstaller.getInstalledOpenCV: pluginDir = " + pluginDir.getAbsolutePath());
+    	
         File[] cvJars = pluginDir.listFiles(new JarInspector.DefaultFilenameFilter("opencv"));
         
         String[] cvPaths = new String[cvJars.length];

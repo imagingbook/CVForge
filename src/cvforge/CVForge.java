@@ -62,7 +62,7 @@ public class CVForge {
     	String dir = System.getProperty("plugins.dir");
     	dir = dir.replace("/", SEP);
     	dir = dir.replace("%20", " ");    	
-    	dir += SEP + "plugins" + SEP;
+    	//dir += SEP + "plugins" + SEP;	// wilbur
     	return dir;
     }
 

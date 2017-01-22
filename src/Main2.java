@@ -17,6 +17,7 @@ public class Main2{
 	public static void main(String[] args){
 		Class<?> clazz = CVForgeLauncher.class;
 		String url = clazz.getResource("/" + clazz.getName().replace('.', '/') + ".class").toString();
+				
 		String pluginsDir = url.substring(5, url.length() - clazz.getName().length() - 6);
 		System.setProperty("plugins.dir", pluginsDir);
 		
