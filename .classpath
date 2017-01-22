@@ -5,6 +5,6 @@
 	<classpathentry kind="lib" path="build/CVForgeConversion.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="ImageJ/ij.jar"/>
-	<classpathentry kind="lib" path="ImageJ/jars/opencv-300.jar"/>
-	<classpathentry kind="output" path="ImageJ/plugins"/>
+	<classpathentry kind="lib" path="ImageJ/jars/opencv-320.jar"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>

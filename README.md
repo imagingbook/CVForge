@@ -97,3 +97,7 @@ Installation will we successful though, but the user must restart Fiji.
 * OpenCV jar switch:
 Switching OpenCV jars will be of no effect.
 Only the jar Fiji's classloaders finds first, can be used. 
+
+
+Downloads:
+http://opencv.org/downloads.html
